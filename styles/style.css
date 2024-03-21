@@ -267,7 +267,7 @@
   gap: 40px;
   list-style-type: none;
   padding-left: 0;
-  border: solid red;
+  /* border: solid red; */
   max-width: 760px;
   margin-top: 68px;
   margin-right: auto;
@@ -375,7 +375,7 @@
   line-height: 30px;
   font-weight: 500;
   z-index: 1;
-  border: solid red;
+  /* border: solid red; */
   /* margin-right: 120px; */
   max-width: 154px;
 }
@@ -389,11 +389,11 @@
   display: flex;
   flex-direction: column;
   z-index: 1;
-  border: solid red;
+  /* border: solid red; */
 }
 
 .about__paragraph {
-  border: solid red;
+  /* border: solid red; */
   margin: 0;
 }
 
@@ -415,34 +415,35 @@
   left: -91px;
   top: -121px;
   z-index: 0;
-  border: solid red;
+  /* border: solid red; */
 }
 
 .footer {
   box-sizing: border-box;
-  /* My Edits  */
   background-color: #000000;
-  border: solid red;
-}
-
-.footer__columns {
-  display: flex;
-  /* justify-content: space-between; */
-  margin-top: 60px;
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-bottom: 60px;
-  border: solid red;
-  /* height: 80px; */
+  color: #f2f2f2;
+  padding: 60px 80px 60px 80px;
+  /* border: solid red; */
 }
 
 .footer__column {
-  margin-right: auto;
+}
+
+/* .footer li a {
+  line-height: 20px;
+  font-size: 16px;
+} */
+
+.footer__columns {
+  display: flex;
+  border: solid red;
 }
 
 .footer__column_content_hours {
   border: solid red;
+  margin-left: auto;
   margin-right: 80px;
+  /* margin-bottom: 108px; */
 }
 
 .footer__column_content_social {
@@ -450,10 +451,9 @@
 }
 
 .footer__logo {
-  width: 57px;
+  /* border: solid red; */
   height: 80px;
-  border: solid red;
-  margin: auto;
+  width: 57px;
 }
 
 .footer__list {
@@ -461,20 +461,17 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
-  color: #f2f2f2;
 }
 
-.footer__list-item {
-  line-height: 20px;
+.footer__list-item:nth-child(1n) {
+  margin-bottom: 16px;
 }
-
-.footer__list-item:nth-child(2n) {
-  line-height: 16px;
+.footer__list-item:last-child {
+  margin-bottom: 0;
 }
 
 .footer__column-heading {
-  color: #f2f2f2;
-  margin: 0;
+  margin: 0 0 20px;
 }
 
 .footer__column-link {
@@ -488,6 +485,6 @@
 }
 
 .footer__copyright {
-  color: #fff;
-  margin-left: 80px;
+  /* color: #f2f2f2; */
+  margin: 108px 0 0 0;
 }
