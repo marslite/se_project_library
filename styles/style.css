@@ -225,6 +225,8 @@
 
 .person_name_tarter {
   /* Use correct values of top/right/bottom/left properties to position the element */
+  top: 79px;
+  left: 159px;
 }
 
 .person__image {
@@ -493,11 +495,20 @@
   text-decoration: none;
 }
 
+.footer__column-link:hover {
+  color: #c1c1c1;
+}
+
 .footer__social-icon {
   height: 16px;
   width: 16px;
   margin: 0;
-  margin-right: 5px;
+  margin-right: 4px;
+}
+
+.footer__social-icon:last-child() {
+  margin: 0;
+  margin-right: 0px;
 }
 
 .footer__copyright {
